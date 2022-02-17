@@ -2,10 +2,16 @@
  
 # Project Description
 
-AG is a collection of more than 1 million news articles that have been gathered from more
-than 2000 news sources by ComeToMyHead in more than 1 year of activity.
+The objective of this task is to detect hate speech in tweets. For the sake of simplicity, we say a tweet contains hate speech if it has a racist or sexist sentiment associated with it. So, the task is to classify racist or sexist tweets from other tweets.
 
-ComeToMyHead is an academic news search engine that has been running since July 2004.
-The dataset is provided by the academic community for research purposes in data mining
-(clustering, classification, etc), information retrieval (ranking, search, etc), xml, data
-compression, data streaming, and any other non-commercial activity.
+# Social Impact of Dataset
+
+With the help of this dataset, one can understand more about human sentiments and also analyse the situation when a particular person intends to make use of hatred/racist comments
+
+
+# Dataset Structure
+
+* Data Fields
+* label: 1 - it is a hate speech
+          0 - not a hate speech.
+* tweet: the content of the tweet as a string.
